@@ -932,7 +932,7 @@ height = 30
 ;offset-y = 1%
 radius = 0.0
 fixed-center = true
-bottom = false
+bottom = true
 separator = |
 
 background = ${colors.background}
