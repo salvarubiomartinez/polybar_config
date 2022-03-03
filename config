@@ -919,7 +919,7 @@ format-underline = #268bd2
 ;label = 🕌 %output%
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-click-left = alacritty -e /home/retterblond/prayer-terminal.sh
+click-left = /home/retterblond/.local/bin/prayer-terminal.sh
 
 [bar/mainbar-xmonad]
 monitor = ${env:MONITOR}
@@ -932,7 +932,7 @@ height = 30
 ;offset-y = 1%
 radius = 0.0
 fixed-center = true
-bottom = true
+bottom = false
 separator = |
 
 background = ${colors.background}
@@ -966,7 +966,7 @@ font-3 = "Noto Sans Mono:size=10;0"
 font-4 = "FontAwesome5Brands:size=13;0"
 font-5 = "FontAwesome6FreeSolid:size=8;0"
 
-modules-left = ewmh
+modules-left = ewmh xwindow 
 ;modules-center = filesystem memory3 cpu1
 modules-right = adhan date xkeyboard
 
